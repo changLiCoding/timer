@@ -1,5 +1,5 @@
 const argvs = process.argv.slice(2);
-console.log(argvs);
+//console.log(argvs);
 
 const setTimeBeep = (times) => {
   if (times.length === 0) {
@@ -22,3 +22,4 @@ const setTimeBeep = (times) => {
 };
 
 setTimeBeep(argvs);
+
